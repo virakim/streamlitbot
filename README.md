@@ -37,24 +37,28 @@ Virasidh KIM
 4. Configurer les clés API
 
 4.1 Créez un dossier .streamlit dans le répertoire du projet :
+
     - Sous Windows :
         mkdir .streamlit
     - Sous Mac/Linux :
         mkdir -p .streamlit
 
 4.2 Dans ce dossier, créez le fichier secrets.toml :
+
     - Sous Windows :
         echo > .streamlit\secrets.toml
     - Sous Mac/Linux :
         touch .streamlit/secrets.toml
 
 4.3 Ajoutez votre clé API OpenAI dans le fichier secrets.toml :
+
     [OPENAI]
     API_KEY = "votre_clé_api_openai"
 
 5. Lancer l’application Streamlit, pour cela :
 
 5.1 Exécutez la commande suivante pour démarrer l’application :
+
     streamlit run chatbotgpt.py
 
 5.2 Une fenêtre de navigateur s’ouvrira avec l’interface utilisateur du chatbot.
