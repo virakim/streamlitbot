@@ -12,7 +12,7 @@ Virasidh KIM
 
     git clone <URL_DU_DEPOT>
     
-    Exemple :
+Exemple :
 
     git clone https://github.com/virakim/streamlitbot.git
 
