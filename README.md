@@ -10,6 +10,7 @@ Virasidh KIM
 
 1.2 Clonez le projet en utilisant la commande suivante dans un terminal :
     git clone <URL_DU_DEPOT>
+    
     Exemple :
     git clone https://github.com/virakim/streamlitbot.git
 
@@ -22,6 +23,7 @@ Virasidh KIM
     python -m venv stenv
 
 2.2 Activez l’environnement virtuel :
+    
     - Sous Windows :
         stenv\Scripts\activate
     - Sous Mac/Linux :
@@ -54,5 +56,5 @@ Virasidh KIM
 
 5.1 Exécutez la commande suivante pour démarrer l’application :
     streamlit run chatbotgpt.py
-    
+
 5.2 Une fenêtre de navigateur s’ouvrira avec l’interface utilisateur du chatbot.
