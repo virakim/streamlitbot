@@ -9,17 +9,21 @@ Virasidh KIM
 1.1 Copiez l’URL du dépôt GitHub.
 
 1.2 Clonez le projet en utilisant la commande suivante dans un terminal :
+
     git clone <URL_DU_DEPOT>
     
     Exemple :
+
     git clone https://github.com/virakim/streamlitbot.git
 
 1.3 Entrez dans le dossier cloné :
+
     cd streamlitbot
 
 2. Créer un environnement virtuel Python
 
 2.1 Créez un environnement virtuel nommé stenv :
+
     python -m venv stenv
 
 2.2 Activez l’environnement virtuel :
@@ -32,6 +36,7 @@ Virasidh KIM
 3. Installer les dépendances
 
 3.1 Installez les modules nécessaires à l’aide du fichier requirements.txt :
+
     pip install -r requirements.txt
 
 4. Configurer les clés API
